@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Expo: start development server",
+      "type": "shell",
+      "command": "npm.cmd start",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: start Pixel 6 Pro emulator",
+      "type": "shell",
+      "command": "${env:LOCALAPPDATA}\\Android\\Sdk\\emulator\\emulator.exe -avd Pixel_6_Pro",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: start Medium Phone emulator",
+      "type": "shell",
+      "command": "${env:LOCALAPPDATA}\\Android\\Sdk\\emulator\\emulator.exe -avd Medium_Phone_API_36.0",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
