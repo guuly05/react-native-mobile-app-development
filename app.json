@@ -2,6 +2,10 @@
   "expo": {
     "name": "mobile-learning-app",
     "slug": "mobile-learning-app",
+    "scheme": "mobile-learning-app",
+    "plugins": [
+      "expo-router"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
