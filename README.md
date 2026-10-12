@@ -49,6 +49,10 @@ npx expo doctor        # Check Expo project health
 
 This workspace uses `npm.cmd` because this Windows machine blocks unsigned PowerShell script shims such as `npm.ps1`.
 
+## Project structure
+
+The app UI lives in `src/App.tsx`. The root `App.tsx` file remains the Expo entry point and re-exports the screen from `src`, so the project works in Expo Go without extra setup.
+
 ## Learning path
 
-Start in `App.tsx`: change the text, add a `Button`, then practice state with `useState`, lists with `FlatList`, and navigation after the basics are comfortable.
+Start in `src/App.tsx`: change the text, adjust the lesson cards, and practice state with `useState`. Navigation can be added after the basics are comfortable.
