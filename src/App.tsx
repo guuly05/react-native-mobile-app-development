@@ -31,6 +31,7 @@ export default function App() {
       <StatusBar style="dark" />
       <ScrollView contentContainerStyle={styles.container}>
         <Text style={styles.eyebrow}>MOBILE LEARNING</Text>
+        <Text style={styles.greeting}>Welcome, guuly67!</Text>
         <Text style={styles.title}>Learn by building</Text>
         <Text style={styles.subtitle}>
           Complete each lesson and watch your progress grow.
@@ -88,6 +89,12 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     letterSpacing: 1.5,
     marginTop: 12,
+  },
+  greeting: {
+    color: '#5964D8',
+    fontSize: 16,
+    fontWeight: '700',
+    marginTop: 18,
   },
   title: {
     color: '#171A2B',
