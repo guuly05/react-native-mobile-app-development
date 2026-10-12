@@ -51,8 +51,8 @@ This workspace uses `npm.cmd` because this Windows machine blocks unsigned Power
 
 ## Project structure
 
-The app UI lives in `src/App.tsx`. The root `App.tsx` file remains the Expo entry point and re-exports the screen from `src`, so the project works in Expo Go without extra setup.
+The app UI lives in `app/index.tsx`, the home route managed by Expo Router. Add new screens as route files inside `app`.
 
 ## Learning path
 
-Start in `src/App.tsx`: change the text, adjust the lesson cards, and practice state with `useState`. Navigation can be added after the basics are comfortable.
+Start in `app/index.tsx`: change the text, adjust the lesson cards, and practice state with `useState`. Add navigation by creating additional route files inside `app`.
