@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "dependencies": {
-    "expo": "~57.0.26",
-    "expo-router": "~57.0.26",
+    "expo": "~57.0.33",
+    "expo-constants": "~57.0.25",
+    "expo-linking": "~57.0.14",
+    "expo-router": "~57.0.32",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
+    "react-dom": "19.2.3",
     "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
     "react-native-web": "^0.21.2"
   },
   "devDependencies": {
